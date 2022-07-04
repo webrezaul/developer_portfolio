@@ -24,7 +24,7 @@ section{
     width:50%;
     padding: 15px 10px;
     padding-left: 80px;
-    background-image: url(/Developer-portfolio/img/top-banner.png);
+    background-image: url(img/top-banner.png);
     background-repeat:no-repeat;
 }
 
@@ -41,4 +41,37 @@ section{
     margin-left: 30px;
    border-radius: 10px;
    
+ }
+
+ .dream-bg{
+    display: flex;
+    margin-bottom: 150px;
+    padding: 20px 20px;
+ }
+
+ .dream-bg .dreammg{
+
+    display: inline;
+    width: 50%;
+    padding-right: 20px;
+ }
+
+ .dream-txt{
+    padding-left: 50px;
+    text-align: justify;
+    
+ }
+
+ .p2{
+
+    margin-bottom:30px;;
+ }
+
+ .download{
+    padding: 20px 50px;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    
  }
