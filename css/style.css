@@ -2,81 +2,98 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-h1{
-    font-size: 60px;
 
+.half-width{
+
+    display: flex;
+    
 }
 
-h2{ color: orange;
+.half-width h1{
     font-size: 50px;
+    font-weight: 10px;
+    padding-left: 3cm;
+    
+}
+
+.half-width h2{
+    font-size: 60px;
+    font-weight: 10px;
+    color: orange;
+    padding-left: 3cm;
 
 }
 
-section{
+.half-width h3{
+    font-size: 30px;
+    font-weight: 10px;
+    padding-left: 3cm;
+
+}
+
+.half-width .p1{
+ 
+    font-size:18px;
+    padding-left: 3cm;
+
+
+}
+
+.half-width img{
+
+    background-image: cover;
+    width: 400px;
+
+
+
+}
+
+.link-button{
+     text-decoration: none;
+     padding-left: 3cm;
+     padding: 15px 50px ;
+     background-image: linear-gradient(orange,tomato);
+     font-weight: 600;
+     color:white;
+     border-radius: 10px;
+     margin-left: 3cm;
+
+}
+
+
+.dream{
     display: flex;
+    background-image: url("../img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.dream img{
+    width: 500px;
+    background-image: cover;
+    padding-left: 2cm;
 }
 
-.p1{
-    color: black;
+.dream-txt{
+ 
+}
+
+
+.dream-txt h1{
+    font-size: 40px;
+    padding-left:3.2cm;
+    
+}
+.dream-txt h3{
     font-size: 20px;
+    padding-left:3.2cm;
+    
 }
-.welcome{
-    width:50%;
-    padding: 15px 10px;
-    padding-left: 80px;
-}
-.img{
-     
-    background-image: url("../img/top-banner.png");
-    background-size: cover;
-    background-color: blue;
-
-}
-
-.rezaul-img{
-    width: 100%;
-  
-}
- .hire-me{
-    text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
-    padding: 15px 60px;
-    color:aliceblue;
-    font-weight: 700px;
-    margin-left: 30px;
-   border-radius: 10px;
-   
- }
-
- .dream-bg{
-    display: flex;
-    margin-bottom: 150px;
-    padding: 20px 20px;
- }
-
- .dream-bg .dreammg{
-
-    display: inline;
-    width: 50%;
-    padding-right: 20px;
- }
-
- .dream-txt{
-    padding-left: 50px;
+.dream-txt p{
+    padding-left:3.2cm;
     text-align: justify;
-    
- }
 
- .p2{
+}
 
-    margin-bottom:30px;;
- }
 
- .download{
-    padding: 20px 50px;
-    background-image: linear-gradient(orange,tomato);
-    border-radius: 20px;
-    text-decoration: none;
-    color: white;
-    
- }
+
